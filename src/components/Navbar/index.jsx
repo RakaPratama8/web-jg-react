@@ -1,11 +1,17 @@
 import Logo from "./Logo";
-// import Title from "./Title";
+import Title from "./Title";
+import "./style.css";
 
 const Navbar = () => {
     return (
         <>
-            <nav>
+            <nav
+                className="navbar"
+            >
                 <Logo />
+                <Title>
+                    Jakampus Gunadarma
+                </Title>
             </nav>
         </>
     )

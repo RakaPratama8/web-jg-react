@@ -1,4 +1,19 @@
 .logo img{
     padding: 20px;
     border-radius: 50%;
+    width: 200px;
+}
+
+.navbar-title {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
