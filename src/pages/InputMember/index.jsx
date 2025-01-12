@@ -1,11 +1,14 @@
+import FormRegister from '../../components/FormRegister';
 
 
-const InputMember = () => {
+const inputMember = () => {
     return (
-        <div>
-            <h1>Input Member</h1>
-        </div>
+        <>
+            <div>
+                <FormRegister />
+            </div>
+        </>
     )
 }
 
-export default InputMember;
+export default inputMember;
