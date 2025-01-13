@@ -3,3 +3,14 @@
     font-size: 40px;
     font-weight: bold;
 }
+
+.submit-button {
+    background-color: #FF9900;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2.5px solid #000000;
+    border-radius: 20px;
+    cursor: pointer;
+}

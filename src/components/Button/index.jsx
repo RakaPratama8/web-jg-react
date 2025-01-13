@@ -1,9 +1,14 @@
 import PropTypes from 'prop-types';
 import './style.css';
 
-const Button = ({ children, onClick, type = 'button', className = '' }) => {
+const Button = ({ children, type = 'button', className, ...props }) => {
+    
     return (
-        <button type={type} className={`button ${className}`} onClick={onClick}>
+        <button
+            {...props}
+            type={type} 
+            className={className}
+        >
             {children}
         </button>
     );
