@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useState,  } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 import Input from '../Input';
 import Button from '../Button';
@@ -16,6 +17,8 @@ const FormRegister = () => {
     });
 
     const [error, setError] = useState(null);
+
+    const navigate = useNavigate();
 
     const handleAddMember = async (e) => {
         e.preventDefault();
@@ -47,7 +50,7 @@ const FormRegister = () => {
             }
 
             const data = await res.json();
-            window.location.href = '/members';
+            navigate('/members');
             console.log(data);
 
             setMember({
