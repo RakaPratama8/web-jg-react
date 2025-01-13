@@ -73,7 +73,7 @@ const FormRegister = () => {
                 alt='logo'
             />
             <div>
-                <h1 className='title'>
+                <h1 className='title-register'>
                     Register
                 </h1>
                 <form
