@@ -4,6 +4,8 @@
     flex-direction: column;
     align-items: center;
     background-image: url('../../assets/foto-carousel.jpg');
+    background-size: cover;
+    height: 800px;
 }
 
 .button-join {
@@ -18,9 +20,10 @@
 }
 
 .title {
-    -webkit-text-stroke: 3px black;
+    -webkit-text-stroke: 5px black;
     
     color: #FF9900;
     font-size: 100px;
     text-align: center;
+    width: 70%;
 }

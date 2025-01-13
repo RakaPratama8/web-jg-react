@@ -1,11 +1,12 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-import './index.css'
-import Home from './pages/Home'
-import Members from './pages/Members'
-import InputMember from './pages/inputMember'
+import './index.css';
+import Home from './pages/Home';
+import Members from './pages/Members';
+import InputMember from './pages/inputMember';
+import Admin from './pages/Admin';
 
 
 const router = createBrowserRouter([
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: '/input',
     element: <InputMember />
+  },
+  {
+    path: '/admin',
+    element: <Admin />
   }
 ])
 

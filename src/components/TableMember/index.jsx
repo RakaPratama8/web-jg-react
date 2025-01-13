@@ -48,5 +48,4 @@ const TableMember = () => {
         </table>
     )
 }
-
 export default TableMember;

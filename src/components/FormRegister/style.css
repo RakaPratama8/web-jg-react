@@ -9,6 +9,25 @@
     cursor: pointer;
 }
 
-.title-register {
-    
+.submit-button-delete {
+    background-color: #bd0000;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 2.5px solid #000000;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.submit-button-update {
+    background-color: #FF9900;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 2.5px solid #000000;
+    border-radius: 20px;
+    cursor: pointer;
 }
