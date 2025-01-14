@@ -1,0 +1,9 @@
+.update-domisili {
+    display: flex;
+    justify-content: start;
+}
+
+.admin-container {
+    display: flex;
+    flex-direction: column;
+}

@@ -3,6 +3,7 @@ import axios from 'axios';
 
 import Button from "../../components/Button";
 import Input from "../../components/Input";
+import './admin.css'
 
 const Admin = () => {
 
@@ -43,7 +44,7 @@ const Admin = () => {
             console.error(error.message || 'Something went wrong while trying to delete the member.');
         }
     }
-    
+
     const handleUpdateMember = async (npmMember, domisiliBaru) => {
         try {
             const res = await fetch('http://localhost:1234', {
@@ -72,10 +73,10 @@ const Admin = () => {
     }
 
     return (
-        <div>
+        <div className="admin-container">
             <div>
                 <h1>Admin Page</h1>
-                <table>
+                <table className="table">
                     <thead>
                         <tr>
                             <th>Nama</th>
@@ -83,6 +84,7 @@ const Admin = () => {
                             <th>TTL</th>
                             <th>Domisili</th>
                             <th>Angkatan</th>
+                            <th>Action</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -116,11 +118,11 @@ const Admin = () => {
                     </tbody>
                 </table>
             </div>
-            <div>
+            <div className="update-domisili">
                 <form
                     onSubmit={(e) => {
                         e.preventDefault();
-                        handleUpdateMember(npm, domisili);
+                        if(window.confirm(`Are you sure want to update ${npm}`)){handleUpdateMember(npm, domisili);}
                     }}
                 >
                     <Input
@@ -147,7 +149,6 @@ const Admin = () => {
                     </Button>
                 </form>
             </div>
-
         </div>
     )
 }
