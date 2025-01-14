@@ -4,8 +4,9 @@ import './style.css'
 
 const Members = () => {
     return (
-        <div>
+        <>
             <Navbar />
+            <div className='members-container'>
             <h1
                 className='header-member'
             >
@@ -13,6 +14,7 @@ const Members = () => {
             </h1>
             <TableMember />
         </div>
+        </>
     )
 }
 

@@ -1,0 +1,14 @@
+.header-member {
+    -webkit-text-stroke: 2px black;
+
+    font-weight: 700;
+    font-size: 50px;
+    color: #EF841A;
+}
+
+.members-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
