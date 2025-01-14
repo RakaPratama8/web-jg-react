@@ -1,10 +1,12 @@
 import FormRegister from '../../components/FormRegister';
 
+import './register.css';
+
 
 const inputMember = () => {
     return (
         <>
-            <div>
+            <div className='register-container'>
                 <FormRegister />
             </div>
         </>

@@ -12,6 +12,7 @@ const Navbar = () => {
                 <Logo 
                     src={logoJak}
                     alt="logo"
+                    width="200"
                 />
                 <Title>Jakampus Gunadarma</Title>
             </div>

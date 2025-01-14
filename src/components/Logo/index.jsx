@@ -1,12 +1,15 @@
 import "./style.css";
 import PropTypes from 'prop-types';
 
-const Logo = (props) => {
-    const { src, alt } = props;
+const Logo = ({ src, alt, ...props }) => {
 
     return (
         <div className="logo">
-            <img src={src} alt={alt} />
+            <img 
+                src={src} 
+                alt={alt} 
+                {...props}
+            />
         </div>
     );
 }

@@ -67,10 +67,11 @@ const FormRegister = () => {
         }
     }
     return (
-        <div>
+        <div className='form-container'>
             <Logo 
                 src={logoMacan}
                 alt='logo'
+                width='300px'
             />
             <div>
                 <h1 className='title-register'>
