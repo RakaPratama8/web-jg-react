@@ -10,4 +10,4 @@ dan menampung seluruh daya suporter persija yang terdapat di Universitas Gunadar
 - Muhammad Bintang Alifiansyah (51422001)
 
 ### Catatan
-Website ini memiliki frontend menggunakan library React, dan menggunakan php sebagai backendnya (localhot:1234)
+Website ini memiliki frontend menggunakan library React, dan menggunakan php sebagai backendnya (localhost:1234)
