@@ -1,9 +1,13 @@
-# React + Vite
+# Website Jakampus Gunadarma
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Jakampus Gunadarma adalah merupakan suatu wadah bagi suporter Persija
+terutama Mahasiswa Universitas Gunadarma yang mencintai Persija untuk berorganisasi
+dan menampung seluruh daya suporter persija yang terdapat di Universitas Gunadarma,Berdiri pada 4 November 2009
 
-Currently, two official plugins are available:
+# Anggota Kelompok "BRB" : 
+- Muhamad Raka Pratama (50422956)
+- Muhammad Bukhori (51422002)
+- Muhammad Bintang Alifiansyah (51422001)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# web-jg-react
+### Catatan
+Website ini memiliki frontend menggunakan library React, dan menggunakan php sebagai backendnya (localhot:1234)
